@@ -91,15 +91,16 @@ const SolanaAirdrop: React.FC = () => {
                   </p>
                   <button
                     onClick={handleCopy}
-                    className="rounded hover:bg-black-600 transition duration-200 cursor-pointer"
+                    className="rounded hover:bg-black-600 transition duration-200 cursor-pointer text-[0.5rem] border-[1px] px-2 py-1"
                   >
-                    <img
+                    {/* <img
                       src="/public/copy.png"
                       alt="copy image"
                       className="object-cover"
                       height={10}
                       width={10}
-                    />
+                    /> */}
+                    Copy
                   </button>
                 </div>
               </p>
