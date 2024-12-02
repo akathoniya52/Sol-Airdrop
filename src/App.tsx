@@ -49,7 +49,7 @@ function App() {
   return (
     <>
       <ConnectionProvider
-        endpoint={"https://bessy-frq4bq-fast-devnet.helius-rpc.com/"}
+        endpoint={"https://api.devnet.solana.com"}
       >
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
